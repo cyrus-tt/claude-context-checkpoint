@@ -1,5 +1,5 @@
 ---
-name: context-checkpoint
+name: 上下文存档checkpoint
 description: Context 管理技能。当 context 用量升高（建议 30% 就动手）或任务告一段落时，把当前任务状态、决策和待办导出到 checkpoint 文件，然后 /clear 重新开始。防止 auto-compaction 随机压缩造成关键信息丢失。触发词：/checkpoint、保存进度、context 快满了。
 ---
 

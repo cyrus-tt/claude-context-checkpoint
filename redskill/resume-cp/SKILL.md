@@ -1,5 +1,5 @@
 ---
-name: resume-cp
+name: 上下文恢复resume
 description: 配合 context-checkpoint 使用的恢复技能。用户 /clear 之后说"恢复checkpoint""继续上次的工作""resume-cp"时，读取 ~/.claude/checkpoints/ 下最新的 checkpoint 文件，对齐任务状态后等用户确认再继续。
 ---
 
